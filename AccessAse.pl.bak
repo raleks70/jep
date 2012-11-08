@@ -13,7 +13,6 @@ while (@row = $sth->fetchrow_array) {
 		print $_, "\n";
     }
 }
-
 $sth->finish();
 $dbh->disconnect();
 
