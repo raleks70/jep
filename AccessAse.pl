@@ -2,7 +2,7 @@
 
 use DBI;
 use DBD::Sybase;
-use Data::Dumper;
+--use Data::Dumper;
 
 $dbh = DBI->connect('DBI:Sybase:server=FISK0810;database=pslab', 'sa', 'ngpadmin',
             { RaiseError => 1, AutoCommit => 1});
